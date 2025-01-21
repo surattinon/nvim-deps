@@ -4,7 +4,7 @@
 
 require("core.options")
 require("core.keymaps")
-require("core.package-manager")
+require("core.plugins-manager")
 require("core.theme")
 
 require("mini.modules")

@@ -47,8 +47,7 @@ end
 function Mini(plugin_name, options)
 	local plugin = require("mini." .. plugin_name)
 	plugin.setup(options)
-	
-	-- Execute the keymap function if it exists
+
 	if options.custom_keymap and type(options.custom_keymap) == "function" then
 		options.custom_keymap()
 	end
